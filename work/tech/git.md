@@ -1,4 +1,4 @@
-# Pro Git
+# 《Pro Git》笔记
 
 链接：[git-scm](https://git-scm.com/book/zh/v2/)
 
@@ -41,16 +41,16 @@
 ## 配置操作
 如命令所示调用git config进行操作。使用--global则会写到配置文件中；如果不使用--global，则只会对当前提交产生影响。
 ```shell
-git config --global user.name 'jiaoyang623'
-git config --global core.editor vim
+$git config --global user.name 'jiaoyang623'
+$git config --global core.editor vim
 ```
 ## 查看配置
 ```shell
 # 查看当前能找到的配置
-git config --list
+$git config --list
 
 # 查看某个配置
-git config user.name
+$git config user.name
 ```
 
 # 操作
