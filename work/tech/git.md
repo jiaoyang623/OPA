@@ -17,6 +17,8 @@
 
 ![文件状态](res/git_file_states.png)
 
+![文件状态](res/git_file_state_track.png)
+
 # 配置
 ## 配置文件
 配置文件存在于系统和个人目录中：
@@ -55,5 +57,14 @@ $git config user.name
 
 # 操作
 
+## 初始化
+```shell
+$ git init
+```
+
+## 克隆现有仓库
+```shell
+$ git clone https://github.com/libgit2/libgit2
+```
 
 # 实践
