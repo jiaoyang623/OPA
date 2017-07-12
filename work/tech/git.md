@@ -17,7 +17,7 @@
 
 ![存储区](res/git_storage.png)
 
-![文件状态](res/git_file_states.png)
+![文件状态](res/git_file_status.png)
 
 # 配置
 ## 配置文件
