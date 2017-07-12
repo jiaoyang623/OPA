@@ -16,3 +16,44 @@
 - 没有放到缓存中的文件不会被提交
 
 ![文件状态](res/git_file_states.png)
+
+# 配置
+## 配置文件
+配置文件存在于系统和个人目录中：
+- /etc/gitconfig
+- ~/.gitconfig
+
+文件结构如下：
+```shell
+[user]
+    name = jiaoyang623
+    email = jiaoyang623@qq.com
+[core]
+    autocrlf = input
+    editor = vim
+[push]
+    default = simple
+[credential]
+    helper = store
+
+```
+其中保存了用户名、默认编辑器等信息
+## 配置操作
+如命令所示调用git config进行操作。使用--global则会写到配置文件中；如果不使用--global，则只会对当前提交产生影响。
+```shell
+git config --global user.name 'jiaoyang623'
+git config --global core.editor vim
+```
+## 查看配置
+```shell
+# 查看当前能找到的配置
+git config --list
+
+# 查看某个配置
+git config user.name
+```
+
+# 操作
+
+
+# 实践
