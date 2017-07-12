@@ -15,9 +15,9 @@
 - 修改本地文件对缓存中的快照不产生影响
 - 没有放到缓存中的文件不会被提交
 
-![文件状态](res/git_file_states.png)
+![存储区](res/git_storage.png)
 
-![文件状态](res/git_file_state_track.png)
+![文件状态](res/git_file_states.png)
 
 # 配置
 ## 配置文件
