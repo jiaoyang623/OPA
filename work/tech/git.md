@@ -43,28 +43,47 @@
 ## 配置操作
 如命令所示调用git config进行操作。使用--global则会写到配置文件中；如果不使用--global，则只会对当前提交产生影响。
 ```shell
-$git config --global user.name 'jiaoyang623'
-$git config --global core.editor vim
+git config --global user.name 'jiaoyang623'
+git config --global core.editor vim
 ```
 ## 查看配置
 ```shell
 # 查看当前能找到的配置
-$git config --list
+git config --list
 
 # 查看某个配置
-$git config user.name
+git config user.name
 ```
 
 # 操作
 
 ## 初始化
 ```shell
-$ git init
+# 初始化本地文件夹
+git init
+
+# 克隆现有仓库
+git clone https://github.com/libgit2/libgit2
 ```
 
-## 克隆现有仓库
+## 更新
+
 ```shell
-$ git clone https://github.com/libgit2/libgit2
+# 查看状态
+git status
+
+# 状态简览
+git status -s
+
+# 跟踪文件/暂存文件
+git add FILENAME
+
+# 对比
+git diff
+
+# 
+git diff --staged
 ```
+
 
 # 实践
